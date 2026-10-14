@@ -1,0 +1,19 @@
+document.documentElement.classList.add('js');
+const instagram='https://instagram.com/thatgirlcovey_';
+const stories=[
+{category:'beauty',image:'post-1.jpg',title:'The self-care restock',description:'The everyday body-care staples Covey comes back to.',url:'https://liketk.it/5sSBM'},
+{category:'lifestyle',image:'post-0.jpg',title:'A little kit for life on the go',description:'Small essentials. A little more prepared for the everyday.',url:'https://liketk.it/5vE4z'},
+{category:'beauty',image:'post-5.jpg',title:'Your at-home nail moment',description:'A salon-inspired manicure, on your own terms.',url:'https://liketk.it/4PeIP'}
+];
+const grid=document.querySelector('#story-grid');
+function render(filter='all'){
+const list=stories.filter(s=>filter==='all'||s.category===filter);
+grid.replaceChildren();
+if(!list.length){const block=document.createElement('div');block.className='story-empty';const title=document.createElement('h3');title.textContent=filter==='food'?'Good food. Little moments.':'The moments that matter.';const p=document.createElement('p');p.textContent=filter==='food'?'Pull up a chair. Follow along on Instagram for more from Covey’s everyday world.':'The personal side of my little world. Come along on Instagram for everyday moments and family life.';const a=document.createElement('a');a.className='text-link';a.href=instagram;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Follow along on Instagram ↗';block.append(title,p,a);grid.append(block)}
+list.forEach(s=>{const a=document.createElement('a');a.className='story';a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';const visual=document.createElement('div');visual.className='story-visual';const img=document.createElement('img');img.src='assets/'+s.image;img.alt=s.title+' — from Covey’s LTK';img.loading='lazy';const arrow=document.createElement('span');arrow.className='arrow';arrow.textContent='↗';arrow.setAttribute('aria-hidden','true');visual.append(img,arrow);const label=document.createElement('p');label.className='eyebrow';label.textContent=s.category+' / FROM THE LTK ARCHIVE';const h=document.createElement('h3');h.textContent=s.title;const p=document.createElement('p');p.textContent=s.description;a.append(visual,label,h,p);grid.append(a)});
+document.querySelector('#filter-status').textContent=list.length?list.length+' stories shown':'Follow Covey on Instagram for '+filter+' moments';
+}
+render();document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render(button.dataset.filter)}));
+const menu=document.querySelector('.menu'),nav=document.querySelector('nav');menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}});
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el))}else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));
+let ticking=false;window.addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(()=>{const max=document.documentElement.scrollHeight-innerHeight;document.querySelector('.progress').style.width=(max>0?scrollY/max*100:0)+'%';ticking=false});ticking=true}},{passive:true});document.querySelector('#year').textContent=new Date().getFullYear();
