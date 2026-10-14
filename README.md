@@ -17,3 +17,5 @@ Motherhood and food filters direct visitors to Instagram until approved stories 
 
 ## Features
 Responsive mobile navigation; category filters with live status; scroll reveals; reading progress; image hover motion; reduced-motion support; skip link; keyboard focus indicators; semantic sections; lazy-loaded editorial images.
+
+Hero portrait: Covey’s public TikTok profile, https://www.tiktok.com/@thatgirlcovey (retrieved October 14, 2026). CSS asymmetric silhouette with offset outline and layered typography. Wine and butter yellow lead the palette; chocolate is a supporting accent.
