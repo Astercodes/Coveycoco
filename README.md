@@ -13,7 +13,7 @@ The requested cream, chocolate, wine, butter yellow and beige palette is defined
 
 Images are Covey’s public LTK portrait and preview frames from her public LTK videos, retrieved October 14, 2026. Sources: https://www.shopltk.com/explore/thatgirlcovey ; https://liketk.it/5sSBM ; https://liketk.it/5vE4z ; https://liketk.it/4PeIP ; https://liketk.it/4Pzqj . Captions are summarized and linked to the original posts. Copy developed from the supplied brand brief is draft brand copy for owner review. No invented blog posts, endorsements, follower statistics, or product prices.
 
-Motherhood and food filters direct visitors to Instagram until approved stories and photography are supplied. Collaboration inquiries currently go to Instagram; replace with a confirmed business email or connected contact service when available. No form claims to send messages and no mailing-list data is collected. Google Fonts loads the editorial and body typefaces, with local system fallbacks. Story imagery is local and needs no social-platform API at runtime.
+Motherhood and food filters contain sourced social stories. Collaboration inquiries currently go to Instagram; replace with a confirmed business email or connected contact service when available. No form claims to send messages and no mailing-list data is collected. Google Fonts loads the editorial and body typefaces, with local system fallbacks. Story imagery is local and needs no social-platform API at runtime.
 
 ## Features
 Responsive mobile navigation; category filters with live status; scroll reveals; reading progress; image hover motion; reduced-motion support; skip link; keyboard focus indicators; semantic sections; lazy-loaded editorial images.
@@ -22,4 +22,18 @@ Hero portrait: Covey’s public TikTok profile, https://www.tiktok.com/@thatgirl
 
 ## Vercel
 Import this repository with Root Directory set to the repository root (leave blank). The tracked vercel.json selects Other, skips the build, and serves dist/. Deploy the latest main commit; no install or build command is required.
+
+
+## Social editorial update
+The introduction now uses her Instagram family photograph. All seven Everyday Edit stories use public TikTok or Instagram thumbnails and link directly to those posts. The category copy is an editorial summary, not a quote. Original post URLs:
+- https://www.tiktok.com/@thatgirlcovey/video/7583762618184256799
+- https://www.instagram.com/thatgirlcovey_/reel/DYsWFtRPUZH/
+- https://www.instagram.com/thatgirlcovey_/reel/DR2gII-D-Yi/
+- https://www.tiktok.com/@thatgirlcovey/video/7661285382033591582
+- https://www.tiktok.com/@thatgirlcovey/video/7678467069955902751
+- https://www.tiktok.com/@thatgirlcovey/video/7647123586813070623
+- https://www.tiktok.com/@thatgirlcovey/video/7405973552622488863
+Introduction photo: https://www.instagram.com/thatgirlcovey_/p/DcZdrSSj3mp/
+
+The film section uses TikTok's official embedded player (https://developers.tiktok.com/docs/en/embed-player), loaded on visitor click. Three stories have inline playback with source links. Playback depends on TikTok availability. Films pause when scrolled off screen. Images are stored locally; signed CDN URLs are not runtime dependencies.
 
