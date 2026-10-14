@@ -37,3 +37,5 @@ Introduction photo: https://www.instagram.com/thatgirlcovey_/p/DcZdrSSj3mp/
 
 The film section uses TikTok's official embedded player (https://developers.tiktok.com/docs/en/embed-player), loaded on visitor click. Three stories have inline playback with source links. Playback depends on TikTok availability. Films pause when scrolled off screen. Images are stored locally; signed CDN URLs are not runtime dependencies.
 
+
+Introduction image replaced with Covey’s solo black-and-white Instagram portrait: https://www.instagram.com/thatgirlcovey_/reel/DceZcuuvFjW/ . Story images use a uniform 9:16 frame with full-image fit; no special oversized first/last cards. Footer includes accessible inline SVG icons for Instagram, TikTok, YouTube, LTK and Amazon.
