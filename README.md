@@ -42,3 +42,5 @@ Introduction image replaced with Covey’s solo black-and-white Instagram portra
 
 ## Storytelling and brand portfolio
 Bolder Bodoni Moda display type is inspired by the supplied media-kit references. Chapter labels, a three-pillar introduction, and brand collaborations establish a personal narrative. The 13 past collaborations are supplied by the owner; no campaign metrics or outcomes are invented. Taptap was confirmed to mean Taptap Send. Email links open mailto:coveycoco@gmail.com. Logos are kept as local files, sourced from official brand sites except ISEE Hair, sourced from its SHEIN storefront.
+
+Favorites redesigned as four equally sized product cards with clean local catalog photography from Covey’s LTK favorites, individual original shopping links, no invented prices or availability claims. Products: eos Vanilla Cashmere lotion, St. Ives Oatmeal & Shea Butter body wash, Dove Sensitive Skin beauty bar, Tree Hut Vanilla scrub.
