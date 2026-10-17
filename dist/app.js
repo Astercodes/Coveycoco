@@ -30,7 +30,7 @@ const stories=[
     "category": "lifestyle",
     "image": "tk-mixer.avif",
     "title": "A little dream, in pink",
-    "description": "Unboxing her pink KitchenAid — and celebrating the little wins.",
+    "description": "Unboxing her pink KitchenAid , and celebrating the little wins.",
     "url": "https://www.tiktok.com/@thatgirlcovey/video/7661285382033591582",
     "platform": "TikTok"
   },
@@ -54,7 +54,7 @@ const stories=[
     "category": "beauty",
     "image": "tk-beauty.avif",
     "title": "The shower routine",
-    "description": "Cleansing, body wash, exfoliation, and a little self-care.",
+    "description": "Cleansing, body wash, exfoliation, and a little self care.",
     "url": "https://www.tiktok.com/@thatgirlcovey/video/7405973552622488863",
     "platform": "TikTok"
   }
@@ -64,7 +64,7 @@ function render(filter='all'){
 const list=stories.filter(s=>filter==='all'||s.category===filter);
 grid.replaceChildren();
 if(!list.length){const block=document.createElement('div');block.className='story-empty';const title=document.createElement('h3');title.textContent=filter==='food'?'Good food. Little moments.':'The moments that matter.';const p=document.createElement('p');p.textContent=filter==='food'?'Pull up a chair. Follow along on Instagram for more from Covey’s everyday world.':'The personal side of my little world. Come along on Instagram for everyday moments and family life.';const a=document.createElement('a');a.className='text-link';a.href=instagram;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Follow along on Instagram ';a.append(makeArrow());block.append(title,p,a);grid.append(block)}
-list.forEach(s=>{const a=document.createElement('a');a.className='story';a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';const visual=document.createElement('div');visual.className='story-visual';const img=document.createElement('img');img.src='assets/'+s.image;img.alt=s.title+' — from Covey’s '+s.platform;img.loading='lazy';const arrow=document.createElement('span');arrow.className='arrow';arrow.append(makeArrow());arrow.setAttribute('aria-hidden','true');visual.append(img,arrow);const label=document.createElement('p');label.className='eyebrow';label.textContent=s.category+' / '+s.platform;const h=document.createElement('h3');h.textContent=s.title;const p=document.createElement('p');p.textContent=s.description;a.append(visual,label,h,p);grid.append(a)});
+list.forEach(s=>{const a=document.createElement('a');a.className='story';a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';const visual=document.createElement('div');visual.className='story-visual';const img=document.createElement('img');img.src='assets/'+s.image;img.alt=s.title+' from Covey’s '+s.platform;img.loading='lazy';const arrow=document.createElement('span');arrow.className='arrow';arrow.append(makeArrow());arrow.setAttribute('aria-hidden','true');visual.append(img,arrow);const label=document.createElement('p');label.className='eyebrow';label.textContent=s.category+' / '+s.platform;const h=document.createElement('h3');h.textContent=s.title;const p=document.createElement('p');p.textContent=s.description;a.append(visual,label,h,p);grid.append(a)});
 document.querySelector('#filter-status').textContent=list.length?list.length+' stories shown':'Follow Covey on Instagram for '+filter+' moments';
 }
 render();document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render(button.dataset.filter)}));
