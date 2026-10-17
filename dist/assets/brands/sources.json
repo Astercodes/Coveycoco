@@ -1,0 +1,55 @@
+{
+  "pampers": {
+    "url": "https://images.ctfassets.net/pfeg73t23esw/7kSccXJcqkQ9i65rLfoiwN/41259ca8e5eda76d4aa1b07cd43662cd/Pampers_Logo_Revamp.svg?w=3840&q=75",
+    "file": "pampers.svg"
+  },
+  "neutrogena": {
+    "url": "https://images.ctfassets.net/3zfcttr0ztpr/6tUl8rLVln9RPBMajmeqfv/35a0cd2b60bb2b6297afeb4d21911a59/NTG_LOGO_1.svg",
+    "file": "neutrogena.svg"
+  },
+  "numbuzin": {
+    "url": "https://us.numbuzin.com/cdn/shop/files/250304_______US__04.png?v=1748827912&width=5000",
+    "file": "numbuzin.png"
+  },
+  "glo-melanin": {
+    "url": "https://glomelanin.com/cdn/shop/files/main_logo.svg?v=1755551272&width=600",
+    "file": "glo-melanin.svg"
+  },
+  "oqhair": {
+    "url": "https://oqhair.com/cdn/shop/files/1_24e565d2-c22c-4fbe-9f6e-5e174329fcf3.png?v=1769592477&width=480",
+    "file": "oqhair.png"
+  },
+  "luvmehair": {
+    "url": "https://shop.luvmehair.com/cdn/shop/files/luvmelogo.jpg?v=1756115021&width=600",
+    "file": "luvmehair.jpg"
+  },
+  "aveeno": {
+    "url": "https://images.ctfassets.net/j7jv1vcgqjb4/3TTYsx9vboeofwVsJsPY7n/5dc9306cc9e703ff68ab1c6fae88f25f/logo2x-en-us?fm=png&w=500",
+    "file": "aveeno.png"
+  },
+  "torriden": {
+    "url": "https://torriden2.cdn-nhncommerce.com/data/skin/front/mo_designart/img/banner/03b0b50ebf12bb71f624b6ee36ab73a9_44226.png",
+    "file": "torriden.png"
+  },
+  "covergirl": {
+    "url": "https://www.covergirl.com/",
+    "file": "covergirl.svg"
+  },
+  "euthymol": {
+    "file": "euthymol.png",
+    "url": "https://lgbeauty.com/brands/euthymol"
+  },
+  "belif": {
+    "file": "belif.png",
+    "url": "https://belifmall.com/web/upload/renewal/belif_logo_new2.png"
+  },
+  "taptap": {
+    "file": "taptap.avif",
+    "url": "https://cdn.prod.website-files.com/5ae897b18423ad8b62ceba7c/5b3a97163c43bae706308fca_logo_horz_mint_bg%402x.avif"
+  },
+  "iseehair": {
+    "file": "iseehair.png",
+    "url": "https://img.ltwebstatic.com/images3_srm/2024/03/25/cd/1711378984bde32ef368a53e10986eaee4253b05c7.png",
+    "source": "ISEE Hair Beauty SHEIN storefront"
+  }
+}

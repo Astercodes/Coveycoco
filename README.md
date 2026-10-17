@@ -39,3 +39,6 @@ The film section uses TikTok's official embedded player (https://developers.tikt
 
 
 Introduction image replaced with Covey’s solo black-and-white Instagram portrait: https://www.instagram.com/thatgirlcovey_/reel/DceZcuuvFjW/ . Story images use a uniform 9:16 frame with full-image fit; no special oversized first/last cards. Footer includes accessible inline SVG icons for Instagram, TikTok, YouTube, LTK and Amazon.
+
+## Storytelling and brand portfolio
+Bolder Bodoni Moda display type is inspired by the supplied media-kit references. Chapter labels, a three-pillar introduction, and brand collaborations establish a personal narrative. The 13 past collaborations are supplied by the owner; no campaign metrics or outcomes are invented. Taptap was confirmed to mean Taptap Send. Email links open mailto:coveycoco@gmail.com. Logos are kept as local files, sourced from official brand sites except ISEE Hair, sourced from its SHEIN storefront.
