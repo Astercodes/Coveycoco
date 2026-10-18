@@ -36,26 +36,26 @@ const stories=[
   },
   {
     "category": "food",
-    "image": "tk-bread.avif",
-    "title": "Slow mornings, fresh bread",
-    "description": "Step into the kitchen and bake along.",
-    "url": "https://www.tiktok.com/@thatgirlcovey/video/7678467069955902751",
+    "image": "edit-fish.jpg",
+    "title": "Dinner for my people",
+    "description": "Grilled fish, roasted potatoes, and apple slaw. A family dinner from scratch.",
+    "url": "https://www.tiktok.com/@thatgirlcovey/video/7660931583519558942",
     "platform": "TikTok"
   },
   {
     "category": "motherhood",
-    "image": "tk-baby.avif",
-    "title": "Tiny tastebuds, made with love",
-    "description": "A little look at what’s on her baby’s menu.",
-    "url": "https://www.tiktok.com/@thatgirlcovey/video/7647123586813070623",
+    "image": "edit-waffles.jpg",
+    "title": "A little breakfast, a lot of love",
+    "description": "Sweet potato waffles for baby. Come make a little breakfast with Covey.",
+    "url": "https://www.tiktok.com/@thatgirlcovey/video/7651726290222976287",
     "platform": "TikTok"
   },
   {
     "category": "beauty",
-    "image": "tk-beauty.avif",
-    "title": "The shower routine",
-    "description": "Cleansing, body wash, exfoliation, and a little self care.",
-    "url": "https://www.tiktok.com/@thatgirlcovey/video/7405973552622488863",
+    "image": "edit-serum.jpg",
+    "title": "A little glow goes a long way",
+    "description": "Covey shares her lightweight COVERGIRL serum find.",
+    "url": "https://www.tiktok.com/@thatgirlcovey/video/7690842597622877471",
     "platform": "TikTok"
   }
 ];
